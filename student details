@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+    char name[50], roll_no[20], grade[5];
+    int age;
+
+    printf("Enter student name: ");
+    fgets(name, sizeof(name), stdin);
+    
+    printf("Enter student age: ");
+    scanf("%d", &age);
+
+    printf("Enter student roll number: ");
+    scanf("%s", roll_no);
+
+    printf("Enter student grade: ");
+    scanf("%s", grade);
+
+    printf("\n--- Student Details ---\n");
+    printf("Name: %s", name);
+    printf("Age: %d\n", age);
+    printf("Roll Number: %s\n", roll_no);
+    printf("Grade: %s\n", grade);
+
+    return 0;
+}
