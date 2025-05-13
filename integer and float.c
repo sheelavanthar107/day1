@@ -7,6 +7,6 @@ int main() {
     printf("Enter a float: ");
     scanf("%f", &floatValue);
     printf("You entered the integer: %d\n", intValue);
-    printf("You entered the float: %.2f\n", floatValue);  // %.2f shows 2 decimal places
+    printf("You entered the float: %.2f\n", floatValue);  
     return 0;
 }
