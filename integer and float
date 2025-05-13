@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int intValue;
+    float floatValue;
+
+    // Read integer value
+    printf("Enter an integer: ");
+    scanf("%d", &intValue);
+
+    // Read float value
+    printf("Enter a float: ");
+    scanf("%f", &floatValue);
+
+    // Display the values
+    printf("You entered the integer: %d\n", intValue);
+    printf("You entered the float: %.2f\n", floatValue);  // %.2f shows 2 decimal places
+
+    return 0;
+}
